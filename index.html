@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-wrapper">
+        <div class="todo-list-title">我的待辦清單</div>
+        <!-- <div class="todo-list-title">我的 ToDo List</div> -->
+        <form class="input-wrapper" id="input-wrapper">
+          <input type="text" id="input" />
+          <button id="add-button">新增</button>
+        </form>
+        <ul class="list" id="list">
+          <li class="unchecked">
+            <div class="list-text">洗衣服</div>
+            <div class="delete"></div>
+          </li>
+          <li class="checked"><div class="list-text">洗澡</div></li>
+          <li class="checked"><div class="list-text">吃飯</div></li>
+          <li class="checked"><div class="list-text">睡覺</div></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
