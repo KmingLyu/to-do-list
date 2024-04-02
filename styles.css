@@ -123,14 +123,12 @@ body {
   .input-wrapper button {
     flex: none;
     width: 70px;
+    background-color: black;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .container {
-    width: 320px;
-  }
-  .input-wrapper input {
-    font-size: 12px;
+    width: 400px;
   }
 }
