@@ -131,4 +131,7 @@ body {
   .container {
     width: 400px;
   }
+  .input-wrapper button {
+    background-color: red;
+  }
 }
