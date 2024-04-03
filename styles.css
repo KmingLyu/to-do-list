@@ -110,7 +110,7 @@ body {
   font-family: "Noto Sans TC", sans-serif;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
   .container {
     width: 80%;
   }
