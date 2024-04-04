@@ -14,14 +14,45 @@ body {
   top: 100px;
   left: 50%;
   transform: translateX(-50%);
-  /* transform: translate(-50%, -50%); */
   width: 700px;
   background-color: rgb(248, 251, 254);
   border-radius: 20px;
-  max-height: 80%;
+  max-height: 70%;
+  overflow-y: auto;
 }
+
+.scrollbar {
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+    margin: 20px 20px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 10px;
+  }
+}
+
 .inner-wrapper {
-  margin: 50px 100px;
+  margin: 0px 100px;
+}
+.inner-header {
+  background-color: rgb(248, 251, 254);
+  position: sticky;
+  top: 0;
+  z-index: 1; /* 使得 sticky 元素能夠覆蓋其他元素 */
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 .todo-list-title {
   font-size: 24px;
@@ -63,7 +94,9 @@ body {
 .list {
   list-style: none;
   padding: 0px;
-  max-height: 60vh;
+  /* 根據視窗大小設置最大高度 */
+  /* max-height: 50vh; */
+  max-height: 30%;
   overflow-y: auto;
 }
 .list li {
