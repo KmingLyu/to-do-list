@@ -138,7 +138,13 @@ body {
   .container {
     width: 90%;
   }
-  /* .input-wrapper button {
-    background-color: red;
-  } */
+  .inner-wrapper {
+    margin: 50px 50px;
+  }
+  .input-wrapper input {
+    font-size: 12px;
+  }
+  .input-wrapper button {
+    width: 70px;
+  }
 }
