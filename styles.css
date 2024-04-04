@@ -7,7 +7,7 @@ body {
 
 .container {
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 600px;
@@ -128,9 +128,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .container {
-    width: 400px;
-  }
   .input-wrapper button {
     background-color: red;
   }
