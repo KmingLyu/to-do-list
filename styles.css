@@ -21,7 +21,7 @@ body {
   overflow-y: auto;
 }
 
-.scrollbar {
+/* .scrollbar {
   &::-webkit-scrollbar {
     width: 10px;
   }
@@ -41,7 +41,7 @@ body {
     background: #555;
     border-radius: 10px;
   }
-}
+} */
 
 .inner-wrapper {
   margin: 0px 100px;
