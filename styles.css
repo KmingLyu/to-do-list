@@ -110,7 +110,7 @@ body {
   font-family: "Noto Sans TC", sans-serif;
 }
 
-@media (max-device-width: 750px) {
+@media screen and (max-width: 992px) {
   .container {
     width: 80%;
   }
@@ -127,9 +127,9 @@ body {
   }
 }
 
-@media (max-device-width: 500px) {
+@media screen and (max-width: 768px) {
   .container {
-    width: 800px;
+    width: 400px;
   }
   .input-wrapper button {
     background-color: red;
